@@ -11,60 +11,60 @@ import java.util.Map;
 public class LongestEchoSubstring {
 
     public static void mainTheLongestString() {
-        String str = "acc";
-        System.out.println("最长回文子串为："+getLongest(str));
+        String str = "cbbd";
+        System.out.println("最长回文子串为："+centerExtension(str));
     }
 
-    private static String getLongest(String s) {
-        String maxString = "";
-        if(s.length() == 1 || s.length() == 0){
-            return s;
-        }
-        for(int i=2;i <= s.length(); i++){
-            String str = "";
-            if(i == s.length()){
-                str = getEchoSubstring(s);
-            }else{
-                System.out.println(s.substring(0,i));
-                str = getEchoSubstring(s.substring(0,i));
+    /**
+     * 动态规划算法
+     * @param s
+     * @return
+     */
+    public static String dynamicPlanning(String s) {
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+        String ans = "";
+        for (int l = 0; l < n; ++l) {
+            for (int i = 0; i + l < n; ++i) {
+                int j = i + l;
+                if (l == 0) {
+                    dp[i][j] = true;
+                } else if (l == 1) {
+                    dp[i][j] = (s.charAt(i) == s.charAt(j));
+                } else {
+                    dp[i][j] = (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]);
+                }
+                if (dp[i][j] && l + 1 > ans.length()) {
+                    ans = s.substring(i, i + l + 1);
+                }
             }
-            if(str.length() > maxString.length()){
-                maxString = str;
-            }
         }
-        if(maxString.equals("") && s.length() ==2){
-            maxString = s.substring(0,1);
-        }
-        return maxString;
+        return ans;
     }
 
-    private static String getEchoSubstring(String s) {
-        String maxString = "";
-        char[] chars = s.toCharArray();
-        int left = 0,right = 0;
-        if(s.length()%2 == 0){
-            left = s.length()/2 - 1;
-            right = s.length()/2;
-        }else{
-            left = s.length()/2-1;
-            right = s.length()/2+1;
+    /**
+     * 中心扩展方法
+     * @param str
+     * @return
+     */
+    public static String centerExtension(String str){
+        if(str.length() == 0 || str.length() == 1){
+            return str;
         }
-        s = s+"00000";
-        while(left >= 0){
-            System.out.println("right为"+right);
-            if(right == chars.length){
-                return maxString;
-            }
-            if(chars[left] == chars[right]){
-                System.out.println("最长函数为："+s.substring(left,right+1));
-                maxString = s.substring(left,right+1);
-                left --;
-                right++;
-            }else{
-                System.out.println("返回函数为："+s.substring(left+1,right));
-                return s.substring(left+1,right);
-            }
+        String maxStr = "";
+        for(int i = 0;i<str.length();i++){
+            String length1=expandAroundCenter(str,i,i+1);
+            String length2=expandAroundCenter(str,i,i);
+            String length = length1.length() >= length2.length()?length1:length2;
+            maxStr = maxStr.length() >= length.length()?maxStr:length;
         }
-        return maxString;
+        return maxStr;
+    }
+    public static String expandAroundCenter(String str, int left, int right) {
+        while(left >=0 && right<str.length() && str.charAt(left) == str.charAt(right)){
+            --left;
+            ++right;
+        }
+        return str.substring(left+1,right);
     }
 }
