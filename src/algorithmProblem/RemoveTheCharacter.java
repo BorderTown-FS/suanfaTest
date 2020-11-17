@@ -1,14 +1,13 @@
 package algorithmProblem;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
- *
- *
+ * letcode第八题
  */
 public class RemoveTheCharacter {
 
-    /**
-     * letcode第八题
-     */
     public static void mainRemoveTheCharacter() {
         String str = "     -5-";
         System.out.println("最长回文子串为："+myAtoi(str));
@@ -106,68 +105,56 @@ public class RemoveTheCharacter {
     }
 
     /**
-     *
+     * 官方解法
      * @param str
      * @return
      */
-    public static int myAtoiImprovement(String str) {
-        StringBuffer strBuf = new StringBuffer();//把数字放到strBuf中
-        String regularExpression = "\\u3000|\\u0020|\\u00A0";
-
-        if(null == str || "".equals(str)){
-            return 0;
+    public static int myAtoiOfficial(String str) {
+        Automaton automaton = new Automaton();
+        int length = str.length();
+        for (int i = 0; i < length; ++i) {
+            automaton.get(str.charAt(i));
         }
-        improvementRecursion(str,0);
+        return (int) (automaton.sign * automaton.ans);
+    }
+}
 
-        return 0;
+class Automaton {
+    public int sign = 1;
+    public long ans = 0;
+    private String state = "start";
+    private Map<String, String[]> table = new HashMap<String, String[]>() {{
+        put("start", new String[]{"start", "signed", "in_number", "end"});
+        put("signed", new String[]{"end", "end", "in_number", "end"});
+        put("in_number", new String[]{"end", "end", "in_number", "end"});
+        put("end", new String[]{"end", "end", "end", "end"});
+    }};
+
+    public void get(char c) {
+        state = table.get(state)[get_col(c)];
+        if ("in_number".equals(state)) {
+            ans = ans * 10 + c - '0';
+            ans = sign == 1 ? Math.min(ans, (long) Integer.MAX_VALUE) : Math.min(ans, -(long) Integer.MIN_VALUE);
+        } else if ("signed".equals(state)) {
+            sign = c == '+' ? 1 : -1;
+        }
     }
 
     /**
      * 判断字符类型
-     * @param strChar
+     * @param c
      * @return
      */
-    public static int judge(char strChar){
-        String str = strChar+"";
-        if(str.equals(" ")){
+    private int get_col(char c) {
+        if (c == ' ') {
+            return 0;
+        }
+        if (c == '+' || c == '-') {
             return 1;
-        }else if(str.equals("-") || str.equals("+")){
+        }
+        if (Character.isDigit(c)) {
             return 2;
-        }else if(Character.isDigit(strChar)){
-            return 3;
-        }else{
-            return 4;
         }
-    }
-
-    /**
-     *  state：1为空格，2为+/-,3为数字，4为其他
-     * @return
-     */
-    public static String  improvementRecursion(String str,int state){
-        char num[] = str.toCharArray();
-        String result = "";
-        if(Character.isDigit(num[0]) && state == 0){
-            return str;
-        }else if(str.length() > 1){
-            switch (state){
-                case 1:
-                    int ttt = judge(num[0]);
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                default:
-                    break;
-            }
-        }else if(state == 3 && Character.isDigit(num[0])) {
-            return str;
-        }else{
-            return "";
-        }
-        return "";
+        return 3;
     }
 }
