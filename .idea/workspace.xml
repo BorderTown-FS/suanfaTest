@@ -19,16 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799caf15-5901-4e02-a7e2-026e34c71b2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/IntToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/IsMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/RomanToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/maxArea.java" afterDir="false" />
+    <list default="true" id="799caf15-5901-4e02-a7e2-026e34c71b2f" name="Default" comment="新增">
+      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/ApproachTheSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/FourNumbersSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/PhoneNumberCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmProblem/ThreeNumbersSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/suanfaTest/algorithmProblem/LongestEchoSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/suanfaTest/algorithmProblem/LongestEchoSubstring.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/suanfaTest/mainMethod/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/suanfaTest/mainMethod/mainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmProblem/RealignZString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmProblem/RealignZString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmProblem/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmProblem/FindMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmProblem/FindTheLongestStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmProblem/FindTheLongestStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainMethod/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainMethod/mainClass.java" afterDir="false" />
     </list>
@@ -44,14 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rangeCheck</find>
-      <find>parallelSort</find>
-      <find>\texttt{</find>
-      <find>findMedianSortedArrays1</find>
-      <find>strBuf.append(num[i]);</find>
-    </findStrings>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,13 +57,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../readExcel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -107,13 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,7 +181,24 @@
       <workItem from="1602649775086" duration="134000" />
       <workItem from="1602731824241" duration="218000" />
       <workItem from="1605082525380" duration="2062000" />
-      <workItem from="1605147939209" duration="27926000" />
+      <workItem from="1605147939209" duration="28145000" />
+      <workItem from="1608536141218" duration="62000" />
+      <workItem from="1608537236877" duration="16000" />
+      <workItem from="1608537296582" duration="10040000" />
+      <workItem from="1609242419368" duration="1312000" />
+      <workItem from="1609308689737" duration="2793000" />
+      <workItem from="1610521316938" duration="9839000" />
+      <workItem from="1611820572020" duration="30000" />
+      <workItem from="1611820796496" duration="44000" />
+      <workItem from="1611820860362" duration="35000" />
+      <workItem from="1611820918638" duration="6000" />
+      <workItem from="1611820962419" duration="10000" />
+      <workItem from="1611821493759" duration="30000" />
+      <workItem from="1611821549760" duration="18000" />
+      <workItem from="1611821589240" duration="108000" />
+      <workItem from="1615168889192" duration="11342000" />
+      <workItem from="1615341465821" duration="12340000" />
+      <workItem from="1615433492516" duration="14883000" />
     </task>
     <task id="LOCAL-00001" summary="新增">
       <created>1601371072857</created>
@@ -195,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601371072857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增">
+      <created>1605604480905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605604480905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增">
+      <created>1610615091518</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610615091518</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,48 +237,69 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增" />
     <option name="LAST_COMMIT_MESSAGE" value="新增" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1605603219766">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1610610812931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605603219766" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1605603219766">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610610812931" />
+    <state width="1237" height="169" key="GridCell.Tab.0.bottom" timestamp="1615457118653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605603219766" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1605603219766">
+    <state width="1237" height="169" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615457118653" />
+    <state width="1237" height="169" key="GridCell.Tab.0.center" timestamp="1615457118653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605603219766" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1605603219766">
+    <state width="1237" height="169" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615457118653" />
+    <state width="1237" height="169" key="GridCell.Tab.0.left" timestamp="1615457118653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605603219766" />
-    <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1605601980593">
+    <state width="1237" height="169" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615457118653" />
+    <state width="1237" height="169" key="GridCell.Tab.0.right" timestamp="1615457118653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605601980593" />
-    <state width="1237" height="202" key="GridCell.Tab.1.center" timestamp="1605601980592">
+    <state width="1237" height="169" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615457118653" />
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1615451634405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605601980592" />
-    <state width="1237" height="202" key="GridCell.Tab.1.left" timestamp="1605601980592">
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615451634405" />
+    <state width="1237" height="203" key="GridCell.Tab.1.center" timestamp="1615451634405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605601980592" />
-    <state width="1237" height="202" key="GridCell.Tab.1.right" timestamp="1605601980592">
+    <state width="1237" height="203" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1615451634405" />
+    <state width="1237" height="203" key="GridCell.Tab.1.left" timestamp="1615451634405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605601980592" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1605149424290">
+    <state width="1237" height="203" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1615451634405" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right" timestamp="1615451634405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605149424290" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1615451634405" />
+    <state x="429" y="42" key="RollbackChangesDialog" timestamp="1615345611839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="429" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1615345611839" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1611821699479">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611821699479" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610615098704">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610615098704" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615358955719">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1615358955719" />
+    <state x="105" y="0" width="603" height="680" key="find.popup" timestamp="1615442672787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="105" y="0" width="603" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615442672787" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,47 +351,47 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>85</line>
+          <line>86</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>82</line>
+          <line>83</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithmProblem/RemoveTheCharacter.java</url>
-          <line>80</line>
+          <line>81</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -391,6 +438,16 @@
           <url>file://$PROJECT_DIR$/src/algorithmProblem/IntToRoman.java</url>
           <line>50</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmProblem/RomanToInt.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmProblem/RomanToInt.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

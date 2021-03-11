@@ -5,12 +5,13 @@ import java.util.Map;
 
 /**
  * letcode第八题
+ * 字符串转化为整数
  */
 public class RemoveTheCharacter {
 
     public static void mainRemoveTheCharacter() {
         String str = "     -5-";
-        System.out.println("最长回文子串为："+myAtoi(str));
+        System.out.println("转化为："+myAtoi(str));
     }
 
     /**
