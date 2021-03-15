@@ -3,7 +3,7 @@ package algorithmProblem;
 /**
  * 12. 整数转罗马数字
  */
-public class IntToRoman {
+public class IntToRoman_12 {
 
     public static void mainIntToRoman() {
         int height = 3;

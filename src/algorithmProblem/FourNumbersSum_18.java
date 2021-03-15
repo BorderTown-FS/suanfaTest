@@ -2,7 +2,6 @@ package algorithmProblem;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -11,11 +10,11 @@ import java.util.List;
  判断 nums 中是否存在四个元素 a，b，c 和 d ，
  使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
  */
-public class FourNumbersSum {
+public class FourNumbersSum_18 {
     public static void mainFourNumbersSum() {
         int[] rom = {-1,0,1,2,-1,-4};
         int target = 0;
-        System.out.println("结果为："+new FourNumbersSum().fourSum(rom,target));
+        System.out.println("结果为："+new FourNumbersSum_18().fourSum(rom,target));
     }
 
     public List<List<Integer>> fourSum(int[] nums, int target) {

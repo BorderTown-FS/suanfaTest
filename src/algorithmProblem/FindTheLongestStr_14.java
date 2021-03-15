@@ -5,10 +5,10 @@ package algorithmProblem;
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  * 如果不存在公共前缀，返回空字符串 ""
  */
-public class FindTheLongestStr {
+public class FindTheLongestStr_14 {
     public static void mainFindTheLongestStr() {
         String[] rom = {"flower","flow","flight"};
-        System.out.println("结果为："+new FindTheLongestStr().longestCommonPrefixOffical(rom));
+        System.out.println("结果为："+new FindTheLongestStr_14().longestCommonPrefixOffical(rom));
     }
 
     public static String longestCommonPrefix(String[] strs) {

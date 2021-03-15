@@ -6,7 +6,7 @@ package algorithmProblem;
  * 在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, ai) 和 (i, 0) 。
  * 找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
  */
-public class maxArea {
+public class maxArea_11 {
     public static void mainMaxArea() {
         int[] height = {3,6,7,4,1,5,8,3,4};
         System.out.println("结果为："+doublePointerMaxArea(height));

@@ -1,9 +1,6 @@
 package algorithmProblem;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 /**
  * 16. 最接近的三数之和
@@ -11,11 +8,11 @@ import java.util.List;
  一个目标值target。找出nums中的三个整数，
  使得它们的和与target最接近。返回这三个数的和。假定每组输入只存在唯一答案。
  */
-public class ApproachTheSum {
+public class ApproachTheSum_16 {
     public static void mainApproachTheSum() {
         int[] rom = {-1,2,1,-4};
         int target = 2;
-        System.out.println("结果为："+new ApproachTheSum().threeSum(rom,target));
+        System.out.println("结果为："+new ApproachTheSum_16().threeSum(rom,target));
     }
 
     public int threeSum(int[] nums,int target) {

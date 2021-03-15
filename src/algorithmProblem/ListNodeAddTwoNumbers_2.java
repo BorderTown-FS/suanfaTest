@@ -6,7 +6,7 @@ package algorithmProblem;
  * 并且它们的每个节点只能存储一位数字。如果，我们将这两个数相加起来，则会返回一个新
  * 的链表来表示它们的和。您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
  */
-public class ListNodeAddTwoNumbers {
+public class ListNodeAddTwoNumbers_2{
     public static void mainListNodeAddTwoNumbers() {
         System.out.println("进入子方法开始");
         ListNode oneListNode=new ListNode(1);
@@ -76,7 +76,7 @@ public class ListNodeAddTwoNumbers {
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) {
-        val = x;
-    }
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

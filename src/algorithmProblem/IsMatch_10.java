@@ -7,7 +7,7 @@ package algorithmProblem;
  * '*' 匹配零个或多个前面的那一个元素
  * 所谓匹配，是要涵盖 整个 字符串 s的，而不是部分字符串。
  */
-public class IsMatch {
+public class IsMatch_10 {
 
     public static void mainIsMatch() {
         String strS = "aabc";

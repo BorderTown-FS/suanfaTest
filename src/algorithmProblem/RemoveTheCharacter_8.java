@@ -7,7 +7,7 @@ import java.util.Map;
  * letcode第八题
  * 字符串转化为整数
  */
-public class RemoveTheCharacter {
+public class RemoveTheCharacter_8 {
 
     public static void mainRemoveTheCharacter() {
         String str = "     -5-";

@@ -8,7 +8,7 @@ import java.util.Map;
    给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出
    和为目标值的那 两个 整数，并返回他们的数组下标。
  */
-public class TheSumOfTwoNumbers {
+public class TheSumOfTwoNumbers_1 {
     public static void mainTheSumOfTwoNumbers() {
         int[] nums={3,1,5,9,13,16};
         //int[] nums1 = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};

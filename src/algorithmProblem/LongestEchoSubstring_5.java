@@ -8,7 +8,7 @@ import java.util.Map;
  * LeetCode第五题
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
  */
-public class LongestEchoSubstring {
+public class LongestEchoSubstring_5 {
 
     public static void mainTheLongestString() {
         String str = "cbbd";

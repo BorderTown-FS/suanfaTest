@@ -8,7 +8,7 @@ import java.util.Map;
  * LeetCode第三题
  * 给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。
  */
-public class TheLongestString {
+public class TheLongestString_3 {
     public static void mainTheLongestString() {
         String str = "aab";
         System.out.println(getNEWLogestString2(str));
