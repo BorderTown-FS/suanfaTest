@@ -69,14 +69,3 @@ public class ListNodeAddTwoNumbers_2{
         return initListNode.next;
     }
 }
-
-/**
- * 创建一个链表类，由本身值和指向下一节点next组成
- */
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
